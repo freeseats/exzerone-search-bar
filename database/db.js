@@ -1,17 +1,7 @@
 const Sequelize = require('sequelize');
-// const mysql = require('mysql');
-// const Search = require('./seeding');
 
-// const connection = mysql.createConnection({
-// 	host: 'localhost',
-// 	user: 'root',
-// 	password: 'student'
-// });
-
-// connection.query('DROP DATABASE IF EXISTS Search', () => {});
-// connection.query('CREATE DATABASE Search', () => {
-const sequelize = new Sequelize('search', 'root', 'student', {
-	host: 'localhost',
+const sequelize = new Sequelize('search', 'root', 'my-secret-pw', {
+	host: 'database',
 	dialect: 'mysql',
 	logging: false
 });
@@ -45,6 +35,4 @@ const Search = sequelize.define(
 	}
 );
 
-// module.exports = sequelize;
 module.exports = Search;
-// });

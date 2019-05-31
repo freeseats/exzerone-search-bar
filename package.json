@@ -13,7 +13,8 @@
 		"server-dev": "nodemon server/connection.js",
 		"start": "node server/connection.js",
 		"test": "jest --detectOpenHandles",
-		"seeding": "node database/seeding.js"
+		"seeding": "node database/seeding.js",
+		"produce": "node database/seeding.js && node server/connection.js"
 	},
 	"dependencies": {
 		"axios": "^0.18.0",

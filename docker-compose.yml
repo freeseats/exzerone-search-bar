@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  searchbar_module:
+    build: .
+    depends_on:
+    - database
+    ports: 
+    - '3030:3030'
+
+  database:
+    image: mysql:5.7
+    restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: 'my-secret-pw'
+      MYSQL_DATABASE: 'search'
+    
+    
+    volumes:
+      - my-db:/var/lib/mysql
+volumes:
+  my-db:
