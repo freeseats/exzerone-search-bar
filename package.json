@@ -8,7 +8,7 @@
 		"node": ">=6.13.0"
 	},
 	"scripts": {
-		"react-dev": "webpack -d -w",
+		"react-dev": "webpack -p -w",
 		"build": "webpack -d",
 		"server-dev": "nodemon server/connection.js",
 		"start": "node server/connection.js",
