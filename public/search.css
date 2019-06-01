@@ -11,14 +11,6 @@
 	align-self: auto;
 	alignment-baseline: auto;
 	all: ;
-	/* animation-delay: 0s;
-	animation-direction: normal;
-	animation-duration: 0s;
-	animation-fill-mode: none;
-	animation-iteration-count: 1;
-	animation-name: none;
-	animation-play-state: running;
-	animation-timing-function: ease; */
 	backface-visibility: visible;
 	background-attachment: scroll;
 	background-blend-mode: normal;
@@ -2131,11 +2123,5 @@
 		0,
 		1
 	);
-	/* transition-delay: 0s, 0s, 0s, 0.15s;
-	transition-duration: 0.15s, 0.15s, 0.15s, 0s;
-	transition-property: transform, opacity, position, max-height;
-	transition-timing-function: ease-out, ease-out, ease-out, ease;
-	user-select: none;
-	visibility: visible; */
 	width: 352px;
 }

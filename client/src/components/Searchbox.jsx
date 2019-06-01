@@ -130,7 +130,6 @@ class Searchbox extends React.Component {
 			placeholder: 'Location, Restaurant, or Cuisine',
 			value,
 			onChange: this.queryHandler,
-			// className: 'dtp-picker-search-autocomplete',
 			style: {
 				position: 'relative',
 				verticalAlign: 'top',
@@ -146,25 +145,6 @@ class Searchbox extends React.Component {
 			<div className="picker-search-container autocomplete">
 				<div className="search-icon" />
 				<span className="twitter-typehead">
-					{/* <input
-						onChange={this.queryHandler}
-						id="dtp-search-single-box"
-						type="text"
-						name="searchText"
-						title="Location, Restaurant, or Cuisine"
-						placeholder="Location, Restaurant, or Cuisine"
-						data-test="search-in-header-dtp-text-input"
-						className="dtp-picker-search-autocomplete tt-input"
-						aria-label="search"
-						autoComplete="off"
-						spellCheck="false"
-						dir="auto"
-						style={{
-							position: 'relative',
-							verticalAlign: 'top',
-							backgrounColor: 'transparent'
-						}}
-					/> */}
 					<Autosuggest
 						suggestions={suggestions}
 						onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
