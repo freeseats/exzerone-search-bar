@@ -31,8 +31,8 @@ FreeSeats
    to see your current databases.
 4. type in command - create database search
 5. type in command - use search
-6. Under the server folder, go to db.js.
-7. On line 13, change the third parameter of the function to the password you have set up to your mysql (it is currently 'student');
+6. Under the databse folder, go to db.js.
+7. On line 2, change the third parameter of the function to the password you have set up to your mysql (it is currently 'student');
 8. After all of the steps mentioned above, go ahead and install dependencies.
 9. run command npm run seeding to seed the data to your database
 10. run npm start to start up the server
