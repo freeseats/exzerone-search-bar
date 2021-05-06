@@ -37,7 +37,7 @@
 		"sequelize-cli": "^5.4.0",
 		"style-loader": "^0.23.1",
 		"styled-components": "^4.2.0",
-		"underscore": "^1.9.1"
+		"underscore": "^1.12.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.4.4",
